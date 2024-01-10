@@ -1,9 +1,13 @@
 # OMDB
-For use in LICENCED *openmusic-compatible* servers, and for educational purposes.
+To aid creating *openmusic-compatible* servers, and for educational purposes.
 
 OMDB (OpenMusic Database) is the worlds largest openly downloadable database with metadata for over 145 million songs, 24 million albums, and 5 million artists.
 
 [Download the OMDB from OneDrive here]().
+
+### Copyright Notice
+The OMDB is for research purposes only. Public use of the database is permitted, however it is your responsibility to ensure that copyright laws for your country are followed. Failure to do so may result in legal pursuit by the owners of the content you are infringing on. Research your country's copyright laws before proceeding.
+
 
 ## How To Use
 `fulldb.tar` is a dump of a PostgreSQL 15 database. To use it, you must first create an empty PostgreSQL 15 database, and then restore using the file.
