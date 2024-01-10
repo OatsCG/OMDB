@@ -1,7 +1,7 @@
 # OMDB
 To aid creating [*openmusic-compatible* servers](https://github.com/OatsCG/openmusic-Server-Specs), and for educational purposes.
 
-OMDB (OpenMusic Database) is the worlds largest openly downloadable database with metadata for over 145 million songs, 24 million albums, and 5 million artists.
+OMDB (OpenMusic Database) is the worlds largest openly downloadable database with metadata for over 145 million songs, 24 million albums, and 5 million artists. (3x larger than [MusicBrainz](https://musicbrainz.org/statistics), ~same as [Discogs](https://en.wikipedia.org/wiki/List_of_online_music_databases))
 
 [Download the OMDB from OneDrive here]().
 
