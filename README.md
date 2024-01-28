@@ -15,7 +15,7 @@ The OMDB is for research purposes only. Public use of the database is permitted,
 
 
 ## How To Use
-`fulldb.tar` is a dump of a PostgreSQL 15 database. To use it, you must first create an empty PostgreSQL 15 database, and then restore using the tar file.
+`fulldb.tar` is a dump of a [PostgreSQL 15](https://www.postgresql.org/download/) database. To use it, you must first create an empty PostgreSQL 15 database, and then restore using the tar file.
 
 DO NOT unzip the tar file. For that matter, do not unzip/open any file downloaded from the internet, unless you're using the proper tools as shown below.
 
