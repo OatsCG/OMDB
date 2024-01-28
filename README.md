@@ -4,7 +4,7 @@ To aid creating [*openmusic-compatible* servers](https://github.com/OatsCG/openm
 OMDB (OpenMusic Database) is the worlds largest openly downloadable database with metadata for over 154 million songs, 28 million albums, and 5 million artists. (**4x larger** than MusicBrainz, ~same as Discogs [<sup>[1]</sup>](https://en.wikipedia.org/wiki/List_of_online_music_databases))
 
 ### [Download the OMDB from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/Ecw5drWAQYlCuJoYwM-XULsBlYy7vxXzi9-uLMXylkPIuw?e=kBl7AM)
-> fulldb.tar 72.1 GB, Created Jan 24 2024, Expires Feb 24 2024
+> fulldb.tar 72.1 GB -> 175 GB, Created Jan 24 2024, Expires Feb 24 2024
 
 ### Copyright Notice
 The OMDB is for research purposes only. Public use of the database is permitted, however it is your responsibility to ensure that copyright laws for your country are followed. Failure to do so may result in legal pursuit by the owners of the content you are infringing on. Research your country's copyright laws before proceeding.
@@ -15,10 +15,12 @@ The OMDB is for research purposes only. Public use of the database is permitted,
 
 DO NOT unzip the tar file. For that matter, do not unzip/open any file downloaded from the internet, unless you're using the proper tools as shown below.
 
+`fulldb.tar` restores into a database that is **175GB**. Make sure you have sufficient storage before proceeding.
+
 ### Creating a Database
 I recommend using a GUI such as [pgAdmin](https://www.pgadmin.org/), or you can use the terminal.
 
-This will create a database called fulldb, assuming PostgreSQL is installed in `/Library`:
+This will create an empty database called fulldb, assuming PostgreSQL is installed in `/Library`:
 ```
 /Library/PostgreSQL/15/bin/createdb -W fulldb
 ```
@@ -28,7 +30,7 @@ Next, use this command to write fulldb.tar to the database fulldb:
 ```
 /Library/PostgreSQL/15/bin/pg_restore -W -d fulldb < fulldb.tar
 ```
-On my Macbook Pro (M1 Pro 2021), this step takes about 3 hours with this file. Once restored, you can query the database via pgAdmin, or a library such as [pg (Node JS)](https://www.npmjs.com/package/pg) or [psycopg2 (Python)](https://pypi.org/project/psycopg2/). Your first step should be to run "ANALYZE" to speed up full-text search.
+On my Macbook Pro (M1 Pro 2021), this step takes about 4 hours with this file. Once restored, you can query the database via pgAdmin, or a library such as [pg (Node JS)](https://www.npmjs.com/package/pg) or [psycopg2 (Python)](https://pypi.org/project/psycopg2/). Your first step should be to run "ANALYZE" to speed up full-text search.
 
 
 ## Database Schema
