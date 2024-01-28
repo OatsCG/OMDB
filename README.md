@@ -5,10 +5,10 @@ OMDB (OpenMusic Database) is the worlds largest openly downloadable database wit
 
 ### [Download the OMDB from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/Ecw5drWAQYlCuJoYwM-XULsBlYy7vxXzi9-uLMXylkPIuw?e=kBl7AM)
 > fulldb.tar 72.1 GB -> 175 GB, Created Jan 24 2024, Expires Feb 24 2024
-> 154,331,239 tracks, 28,046,579 albums, 5,779,932 artists, 154,494,422 playbacks
-### [Download the Lite OMDB from OneDrive here. (Tracks.Views > 1000) (NO LINK YET)]()
-> fulldb.tar XX.X GB -> 27 GB, Created Jan 28 2024, Expires XXX XX XXXX
-> 21,614,852 tracks, 4,335,541 albums, 5,779,932 artists, 21,672,769 playbacks
+>> 154,331,239 tracks, 28,046,579 albums, 5,779,932 artists, 154,494,422 playbacks
+#### [Download the Lite OMDB (Tracks.Views > 1000) from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/ETUyM6_IZ-xIhXwLtL1o0f0BAsLEQzrIP3nAtpzQ_xO0bg?e=qkadDV)
+> litedb.tar 10.6 GB -> 27 GB, Created Jan 28 2024, Expires Feb 27 2024
+>> 21,614,852 tracks, 4,335,541 albums, 5,779,932 artists, 21,672,769 playbacks
 
 ### Copyright Notice
 The OMDB is for research purposes only. Public use of the database is permitted, however it is your responsibility to ensure that copyright laws for your country are followed. Failure to do so may result in legal pursuit by the owners of the content you are infringing on. Research your country's copyright laws before proceeding.
@@ -19,7 +19,7 @@ The OMDB is for research purposes only. Public use of the database is permitted,
 
 DO NOT unzip the tar file. For that matter, do not unzip/open any file downloaded from the internet, unless you're using the proper tools as shown below.
 
-`fulldb.tar` restores into a database that is **175GB**. Make sure you have sufficient storage before proceeding.
+`fulldb.tar` restores into a database that is **175 GB**, and `litedb.tar` into **27 GB**. Make sure you have sufficient storage before proceeding.
 
 ### Creating a Database
 I recommend using a GUI such as [pgAdmin](https://www.pgadmin.org/), or you can use the terminal.
