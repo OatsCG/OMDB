@@ -30,7 +30,7 @@ This will create an empty database called fulldb, assuming PostgreSQL is install
 ```
 
 ### Restoring via fulldb.tar
-Next, use this command to write fulldb.tar to the database fulldb:
+Next, write fulldb.tar to the database fulldb:
 ```
 /Library/PostgreSQL/15/bin/pg_restore -W -d fulldb < fulldb.tar
 ```
