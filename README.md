@@ -6,7 +6,7 @@ OMDB (Openmusic Database) is the worlds largest openly downloadable database wit
 ### [Download the OMDB from OneDrive here.]()
 > fulldb.tar 72.1 GB -> 172 GB, Created Jun 20 2024, Expires July 20 2024
 >> 154,331,239 tracks, 28,046,579 albums, 5,779,932 artists, 154,494,422 playbacks
-#### [Download the Lite OMDB (Album.Tracks[0].Views > 1000) from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/EUxh-lVa47hLlcSU5d0hrO0BXg5k_xQ11UaCMFIJ_v5b9w?e=hi0Yma)
+#### [Download the Lite OMDB (Album.Tracks[0].Views > 1000) from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/r/personal/charlie_giannis_mail_utoronto_ca/Documents/litedb.tar?csf=1&web=1&e=1cZLau)
 > litedb.tar 12.3 GB -> 33 GB, Created June 20 2024, Expires July 20 2024
 >> 22,520,311 tracks, 4,775,953 albums, 6,500,324 artists, 22,580,173 playbacks
 
