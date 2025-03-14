@@ -3,11 +3,11 @@ To aid creating [*Openmusic-Compatible* servers](https://github.com/OatsCG/Openm
 
 OMDB (Openmusic Database) is the worlds largest openly downloadable database with metadata for over 154 million songs, 28 million albums, and 5 million artists. (**4x larger** than MusicBrainz, ~same as Discogs [<sup>[1]</sup>](https://en.wikipedia.org/wiki/List_of_online_music_databases))
 
-### [Download the OMDB from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/EZv9iVursh9PkC8a-0WkXj0Bu_N1HtsSOJCodivmqPNHjA?e=giWgpy)
-> fulldb.tar 80.3 GB -> 172 GB, Created Oct 2 2024, Expires Mar 10 2024
+### [Download the OMDB from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/EZv9iVursh9PkC8a-0WkXj0Bu_N1HtsSOJCodivmqPNHjA?e=NJxyXb)
+> fulldb.tar 80.3 GB -> 172 GB, Created Oct 2 2024, Expires Apr 13 2024
 >> 154,331,239 tracks, 28,046,579 albums, 5,779,932 artists, 154,494,422 playbacks
-#### [Download the Lite OMDB (Album.Tracks[0].Views > 1000) from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/EQSckFPQcfRAh8qg3BumqFoBg848rpU7a3pGgWEPYGsuBw?e=5cLu3L)
-> litedb.tar 14 GB -> 36 GB, Created Feb 4 2025, Expires Mar 11 2025
+#### [Download the Lite OMDB (Album.Tracks[0].Views > 1000) from OneDrive here.](https://utoronto-my.sharepoint.com/:u:/g/personal/charlie_giannis_mail_utoronto_ca/EQSckFPQcfRAh8qg3BumqFoBg848rpU7a3pGgWEPYGsuBw?e=FYPEcB)
+> litedb.tar 14 GB -> 36 GB, Created Feb 4 2025, Expires Apr 13 2025
 >> 25,280,054 tracks, 5,456,582 albums, 7,002,006 artists, 25,346,816 playbacks
 
 ### Copyright Notice
